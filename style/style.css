@@ -39,20 +39,22 @@
     }
 
     header a{
+        background-color: transparent;
         color: white;
         font-weight: bold;
         text-decoration: none;
-        padding: 2px 2px 5px 2px;
+        padding: 2px;
         margin-left: 10px;
-        background-color: transparent;
     }
 
     header a:hover {
-        text-decoration: none;
         background-color: green;
         color: rgb(29, 28, 28);
-        border-radius: 3px;
-        padding: 5px;
+        color: white;
+        text-decoration: none;
+        transition-duration: 0.4s;
+        border-radius: 2px;
+        padding: 2px;
         margin-left: 10px;
     }
 
