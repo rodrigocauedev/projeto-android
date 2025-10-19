@@ -15,11 +15,11 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        background-color: rgba(172, 255, 117, 0.897);
+        background-color: #75e885;
     }
 
     header {
-        background-image: linear-gradient(to top, #274b1e, #44AB2B, #2EEB00);
+        background-image: linear-gradient(to top, #366B3D, #32963F,#20C035);
         color: white;
     }
 
