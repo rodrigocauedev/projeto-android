@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    header {
+        min-height: 210px;
+        background-image: linear-gradient(to top, rgb(1, 75, 5), rgb(12, 126, 2), rgb(3, 181, 3));
+        color: white;
+        text-align: center;
+    }
+
+    header h1 {
+            padding-top: 30px;
+            padding-bottom: 25px;
+            text-shadow: 1px 1px 1px black;
+    }
+
+    header p {
+        text-shadow: 1px 1px 1px black;
+    }
+
+    nav {
+        display: flex;
+        padding-top: 50px;
+    }
+
+    nav p {
+        padding-left: 20px;;
+        font-weight: bold;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav a:hover {
+        padding: 8px;
+        margin: -8px;
+        background-color: rgb(27, 131, 27);
+        border-radius: 10px;
+        transition-duration: 0.2s;
+    }
+
+    body {
+        background-color: rgb(155, 247, 178);
+    }
+
+    main {
+        background-color: white;
+        max-width: 1000px;
+        text-align: center;
+        margin: 0 auto;
+        text-align: justify;
+        padding-top: 30px;
+    }
+
+    main h2 {
+        margin: 0 30px;
+        color: green;
+        background-image: linear-gradient(to right, rgba(121, 229, 121, 0.408), rgba(0, 128, 0, 0.055));
+
+    }
+
+    main p {
+        text-indent: 30px;
+        line-height: 1.6em;
+        padding: 30px 10px;
+        margin: 0 10px;
+    }
+
+    main a {
+        color: green;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    strong {
+            color: green;
+    }
+
+    main a:hover {
+            text-decoration: underline;
+    }
+
+    img {
+            display: block;
+            margin: 0 auto;
+    }
+
+    iframe {
+            margin: 0 auto 10px auto;
+            display: block;
+            width: 90%;
+    }
+
+    aside {
+        background-color: rgb(152, 255, 152);
+        width: 89%;
+        margin: 0 auto;
+        border-radius: 7px;
+    }
+
+    aside p {
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #titulo-aside{
+        background-color: green;
+        color: white;
+        border-radius: 10px 10px 0 0;
+        margin: 0 -1px;
+        padding: 5px;
+        font-weight: bold;
+        text-indent: 4px;
+        }
+
+    ul {
+        columns: 2;
+        list-style-position: inside;
+        margin-left: 70px;
+    }
+
+    footer {
+         background-color: black;
+        padding: 10px;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+    }
